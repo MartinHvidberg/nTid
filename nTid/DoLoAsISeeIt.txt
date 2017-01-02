@@ -1,0 +1,43 @@
+1 DoLo, as I see it:
+
+self.d["__EC_statistics"][TUC['user']] is a "DoLo"
+
+	DoLo =  {
+			"Status":0, 
+			"LOE":[],
+			"DOS":{
+				"LOD":{},
+				"POT":{}
+			      }
+		}
+		
+	LEO = [TUC,TUC,...     ]
+	
+	LOD = {
+		date:[TUC,TUC,...     ]
+		date:[TUC,TUC,...     ]
+		...
+		}
+	      
+	      
+	TUC = {
+			"time":datetime
+			"user":?string
+			"code":?string/int
+		}
+		
+	ODS = {
+		"LoginLogout" : [Earliest, Latest] list of two datetime
+		"Security" : [Earliest, Latest]
+		...
+		}
+	
+		
+d   : dic of DoLo's, key is userID
+DoLo: Dic of, list of. i.e a LOE and a DOS (+ a status) - refering to a Single user
+DOS : Dictionary of Statistics. Holds a LOD and a POT
+LOD : dic of Lists of events for a single Date. Keys are dates, value is list of events from a LOE
+LOE : List of Evenets
+ODS : One Days of Statistics
+POT : 
+TUC : Time,User,Code

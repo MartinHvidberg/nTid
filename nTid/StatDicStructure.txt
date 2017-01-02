@@ -1,0 +1,29 @@
+
+Mahvi
+	Status (DOS|LOE)
+	
+	DOS - Dictionary of Stats
+	
+		LOD - List of dates
+			YYYY-MM-DD
+				Dic
+					Security
+						(Earliest, Latest)
+					LogonLogoff
+						(Earliest, Latest)		
+			YYYY-MM-DD		
+			YYYY-MM-DD		
+			YYYY-MM-DD		
+			YYYY-MM-DD		
+			YYYY-MM-DD
+			...
+			
+		POT - Prepares Output of Text
+		
+	LOE - List Of Event dics (TUC's - Time,User,Code)
+	
+		{'cate': 4, 'code': 576, 'text': u'Anvendelse af rettigheder', 'user': u'RES\\mahvi', 'time': datetime.datetime(2011, 9, 28, 15, 21, 21)}, 
+		{'cate': 2, 'code': 528, 'text': u'Logon/Logoff', 'user': u'RES\\mahvi', 'time': datetime.datetime(2011, 9, 28, 15, 21, 21)}, 
+		{'cate': 2, 'code': 551, 'text': u'Logon/Logoff', 'user': u'RES\\mahvi', 'time': datetime.datetime(2011, 9, 28, 15, 10, 6)}, 
+		{'cate': 4, 'code': 576, 'text': u'Anvendelse af rettigheder', 'user': u'RES\\mahvi', 'time': datetime.datetime(2011, 9, 28, 14, 53, 35)}, 
+		{'cate': 2, 'code': 528, 'text': u'Logon/Logoff', 'user': u'RES\\mahvi', 'time': datetime.datetime(2011, 9, 28, 14, 53, 35)}

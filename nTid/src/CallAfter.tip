@@ -1,0 +1,8 @@
+Simply initialise text_ctrl_Output to something like "Getting Data
+Please Wait", in FillText get your data before clearing the text control
+and at the end of __init__ use wx.CallAfter(FillText) to populate your
+default list after the GUI is drawn.  You might also like to consider
+keeping the data, i.e. assigning it to self.DataList or some such then
+you will not need to reread all the files on each display filter change.
+
+Gadget/Steve 

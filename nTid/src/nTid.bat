@@ -1,0 +1,1 @@
+call C:\Python26\ArcGIS10.0\python.exe nTid.py

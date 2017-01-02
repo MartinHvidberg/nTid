@@ -1,0 +1,22 @@
+{
+'__EC_timenow': datetime.datetime(2012, 1, 22, 10, 27, 39, 61000), 
+'__EC_times': [], 
+'__EC_users': [u'RES\\mahvi'], 
+'__EC_modes': ['Login/Logout', 'Security', 'Some crap mode'], 
+'__EC_statistics': {u'RES\\mahvi': 673, 'Older': 222, 'TW': 6, 'LM': 6, 'LW': 6, 'TL': 6, 'TM': 6, 'LQ': 6}, 
+'__EC_status': 'Processed'
+
+u'RES\\mahvi': {
+	'TW': {
+		'Count': 20, 
+		'timesLL': [datetime.datetime(2012, 1, 22, 9, 4, 1), datetime.datetime(2012, 1, 22, 9, 4, 1)], 
+		'timesAll': [datetime.datetime(2012, 1, 21, 14, 13, 36), datetime.datetime(2012, 1, 22, 9, 4, 1)]
+		}, 
+	'LM': {'Count': 135, 'timesLL': [datetime.datetime(2011, 12, 30, 22, 56, 35), datetime.datetime(2011, 12, 30, 22, 56, 35)], 'timesAll': [datetime.datetime(2011, 12, 4, 13, 22, 12), datetime.datetime(2011, 12, 30, 22, 56, 35)]}, 
+	'LW': {'Count': 54, 'timesLL': [datetime.datetime(2012, 1, 15, 22, 0, 8), datetime.datetime(2012, 1, 15, 22, 0, 8)], 'timesAll': [datetime.datetime(2012, 1, 11, 8, 9, 44), datetime.datetime(2012, 1, 15, 22, 0, 8)]}, 
+	'TL': {'Count': 74, 'timesLL': [datetime.datetime(2012, 1, 22, 9, 4, 1), datetime.datetime(2012, 1, 22, 9, 4, 1)], 'timesAll': [datetime.datetime(2012, 1, 11, 8, 9, 44), datetime.datetime(2012, 1, 22, 9, 4, 1)]}, 
+	'TM': {'Count': 107, 'timesLL': [datetime.datetime(2012, 1, 22, 9, 4, 1), datetime.datetime(2012, 1, 22, 9, 4, 1)], 'timesAll': [datetime.datetime(2012, 1, 1, 13, 25, 12), datetime.datetime(2012, 1, 22, 9, 4, 1)]}, 
+	'LQ': {'Count': 451, 'timesLL': [datetime.datetime(2012, 1, 22, 9, 4, 1), datetime.datetime(2012, 1, 22, 9, 4, 1)], 'timesAll': [datetime.datetime(2011, 10, 27, 17, 33, 53), datetime.datetime(2012, 1, 22, 9, 4, 1)]}
+}, 
+
+}

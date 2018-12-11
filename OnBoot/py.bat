@@ -1,0 +1,1 @@
+call "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" %1 %2 %3
